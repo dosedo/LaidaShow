@@ -1,0 +1,62 @@
+/* 
+  KError.strings
+  HituSocial
+
+  Created by hitomedia on 2017/11/7.
+  Copyright © 2017年 hitumedia. All rights reserved.
+*/
+/*
+ KError.strings
+ Hitu
+ 
+ Created by hitomedia on 16/7/19.
+ Copyright © 2016年 hitomedia. All rights reserved.
+ */
+
+"-1" = "Wrong phone numbert or password";
+
+/* 手机号为空或非法*/
+"5700" = "Mobile phone number cannot be empty";//"手机号不可以为空";
+"5701" = "Please enter the correct phone number";
+"5702" = "Password input is inconsistent, please confirm";
+"5703" = "The password length is 6-18 bits";
+
+/**
+ *  密码内容不合法
+ */
+"5704" = "Passwords must contain uppercase letters, lowercase letters, and digits";
+"5705" = "The original password should not be empty";
+"5706" = "Verification code input error";
+"5707" = "Please enter the 6~18 bit password";
+"5708" = "Verification code input error";
+"5709" = "Password error";
+"5710" = "User name can not be empty";
+"5711" = "The original password can not be empty";
+"5712" = "Please enter a new password for the 6~16 bit";
+"5714" = "Emergency contacts can not be empty";
+"5713" = "Incorrect mailbox format";
+"5715" = "Mailbox can not be empty";
+"5716" = "User name length is not valid";
+"5717" = "User name contains special characters";
+"5718" = "Please select picture verification code";
+
+
+/**
+ *  网络错误
+ */
+"-1004" = "Failed to connect to server. Please check the network";
+"-1005" = "Failed to connect to server. Please check the network";
+"-1001" = "The server is busy. Please try again later";
+"-1009" = "Failed to connect to server. Please check the network";
+"-1011" = "The server is deserted. Please try again later";  //404
+
+/**
+ *  服务器错误
+ */
+"404" = "The server is deserted. Please try again later";
+
+//数据错误
+"3840" = "The server is busy. Please try again later"; //服务器返回的Json格式不正确
+
+//高德地图
+"1806"  = "Failed to connect to server. Please check the network";

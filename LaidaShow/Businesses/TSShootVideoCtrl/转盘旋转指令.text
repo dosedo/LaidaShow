@@ -1,0 +1,115 @@
+
+//转盘旋转指令
+private static byte[] baseMsgData = {
+        0x11,       //  0:
+        0x01,       //  1:
+        0x00,       //  2:
+        0x00,       //  3:
+        0x00,       //  4:
+        0x07,       //  5:
+        0x00,       //  6:
+        0x00,       //  7:
+        0x00,       //  8:
+        0x00,       //  9:
+        0x00,       // 10:
+        0x00,       // 11:
+        0x00,       // 12:
+        0x00,       // 13:
+        0x00,       // 14:
+        0x0d,       // 15:
+        0x0a        // 16:
+};
+//灯光调节指令
+private static byte[] baseLightMsgData = {
+        0x11,       //  0:
+        0x01,       //  1:
+        0x00,       //  2:
+        0x00,       //  3:
+        0x00,       //  4:
+        0x20,       //  5:
+        0x00,       //  6:
+        0x00,       //  7:
+        0x00,       //  8:
+        0x00,       //  9:
+        0x00,       // 10:
+        0x00,       // 11:
+        0x00,       // 12:
+        0x00,       // 13:
+        0x00,       // 14:
+        0x0d,       // 15:
+        0x0a        // 16:
+};
+
+/**
+ * 发送拍照类型的数据
+ */
+public static byte[] getAuto1Msg() {
+    int speed = 0;
+    switch (CaptureManager.Picture_Mode) {
+        case CaptureManager.PICTURE_MODE_18:
+            speed = 4;
+            break;
+        case CaptureManager.PICTURE_MODE_36:
+            speed = 2;
+            break;
+        case CaptureManager.PICTURE_MODE_72:
+            speed = 1;
+            break;
+    }
+    return getStartRunMsg(7, speed, 0);
+}
+/**
+ * 发送视频类型的数据
+ */
+public static byte[] getAuto2Msg() {
+    int speed = 0;
+    int refresh = 0;
+    switch (CaptureManager.Picture_Mode) {
+        case CaptureManager.VIDEO_MODE_20:
+            speed = 72;
+            refresh = 17;
+            break;
+        case CaptureManager.VIDEO_MODE_30:
+            speed = 72;
+            refresh = 0;
+            break;
+    }
+    return getStartRunVideoMsg(7, speed, refresh);
+}
+
+private static byte[] getStartRunMsg(int mode, int speed, int refresh) {
+    byte[] msgData = Arrays.copyOf(baseMsgData, baseMsgData.length);
+    msgData[5] = (byte) mode;
+    msgData[6] = (byte) speed;
+    msgData[7] = (byte) refresh;
+    return msgData;
+}
+private static byte[] getStartRunVideoMsg(int mode, int speed,int refresh) {
+    byte[] msgData = Arrays.copyOf(baseMsgData, baseMsgData.length);
+    msgData[5] = (byte) mode;
+    msgData[6] = (byte) speed;
+    msgData[8] = (byte) refresh;
+    return msgData;
+}
+public static byte[] getLightSetMsg(int R, int G,int B) {
+    byte[] msgData = Arrays.copyOf(baseLightMsgData, baseLightMsgData.length);
+    msgData[7] = (byte) R;
+    msgData[8] = (byte) G;
+    msgData[9] = (byte) B;
+    return msgData;
+}
+
+public static int parseReceivedAuto1(byte[] msg) {
+    int runCount = -1;
+    if (msg[10] == 2) {
+        runCount = msg[5] & 0xff;
+    }
+    return runCount;
+}
+public static int parseReceivedAuto2(byte[] msg) {
+    int runCount = -1;
+    if (msg[6] == 72) {
+        runCount = msg[5] & 0xff;
+    }
+    return runCount;
+}

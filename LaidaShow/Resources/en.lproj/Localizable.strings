@@ -1,0 +1,500 @@
+/* 
+  Localizable.strings
+  HituSocial
+
+  Created by hitomedia on 2017/11/7.
+  Copyright © 2017年 hitumedia. All rights reserved.
+*/
+
+
+"确定"="OK";
+"记住账号密码"="Remember account and password";
+"密码"="Password";
+"请输入用户名"="Please input username";
+"请输入密码"="Please input password";
+"上传成功"="Upload success";
+"公开"="Public";
+"未公开"="Private";
+"作品已收到私人展厅"="Work privated";
+"作品已公开到广场"="Work publiced";
+
+//首页顶部列表标题
+"推荐"="Hot";
+"家居"="Home";
+"鞋服"="Cloths";
+"箱包"="Bags";
+"文创"="Cultural";
+"动漫"="Comic";
+"古玩"="Jewelry";
+"珠宝"="Antique";
+
+"绑定成功"="Bind success";
+"绑定手机号"="Bind phone";
+"拍摄时间"="Shot time";
+"去更新"="Update";
+"秒后再次获取"="seconds";
+"请输入正确的手机号"="Invalid phone format";
+"手机号"="Mobile phone number";
+"验证码登录"="Verification code login";
+"密码登录"="Password login";
+//其他
+"哎呀~(^0^)……什么都没有！"="No Data ~";
+"暂无数据~"="No Data ~";
+"分享成功" = "Share success";
+"分享失败"="Share fail";
+"ShareOK"="OK";
+"模式选择"="Select mode";
+"请选择您要拍摄的模式"="Please select the mode you want to shoot";
+"视频拍摄"="Video shooting";
+"三维拍摄"="Sanv shooting";
+"莱搭秀作品分享"="LaiDaShow work shareing";
+
+"去底之后才可以换底哦，请先进行去底"="You can only change the bottom after the cleared bottom, please do the clear bottom first";
+"知道了"="OK";
+
+"确定上传水印？"="Are you sure to upload the watermark?";
+"水印上传后会变为默认水印需要自己切换选择，确定上传吗？"="The watermark will become the default watermark after uploading. You need to switch the selection yourself. Are you sure you want to upload?";
+
+"制作中..."="making...";
+"添加水印失败" = "Failed";
+"水印上传完成" = "Upload success";
+"确定删除水印？"="Are you sure delete the watermark？";
+"删除后需重新上传新水印"="Re-upload new watermark after deletion.";
+
+
+"从相册选择"="Album";
+"拍照"="Camera";
+
+"保存至相册"="SaveToAlbum";
+"微信"="Wechat";
+"朋友圈"="Moments";
+"QQ好友"="QQFriends";
+"QQ空间"="QQZone";
+"微博"="SinaWeibo";
+"扫码看详情"="Scan For Details";
+
+"设备已连接"="Device connected";
+"设备已断开"="Device disconnected";
+"邮箱或手机格式错误"="Email or phone error";
+"重置密码成功"="Reset password success";
+"注册成功"="Register success";
+
+"滤镜"="Filter";
+"文字"="Text";
+"音乐"="Music";
+"录音"="Record";
+"水印"="Watermark";
+"调节"="Adjust";
+
+//发布作品时错误提示
+"价格不能大于99999.99"="The price can't be greater than 99999";
+"数量不能大于99999"="The count of sale can't be greater than 99999";
+"链接长度不能大于120个字符"="The link length can't be greater than 120";
+"作品描述的长度不能大于300"="The length of the work description cannot be greater than 300";
+
+//调整滤镜
+"亮度"="Light";
+"色温"="ColorTemperature";
+"对比度"="Contrast";
+"饱和度"="Saturation";
+"锐化"="Sharpen";
+
+//视频滤镜
+"正常"="None";
+"经典"="Amaro";
+"流年"="SoftElegance";
+"提亮"="Highlight";
+"优雅"="Amatorka";
+"粉红"="Pink";
+"情侣"="Brannan";
+"哥特"="Earlybird";
+"色彩"="Hefe";
+"云端"="Hudson";
+"年代"="Inkwell";
+"黑白"="Lomofi";
+"枫叶"="LoadKelvin";
+"碧波"="Nashville";
+"彩虹"="Rise";
+"HDR"="HDR";
+"古铜"="Sierra";
+"夜景"="Sutro";
+"温暖"="Toaster";
+"复古"="Valencia";
+"候鸟"="Walden";
+"淡雅"="XproII";
+"伽马"="Gamma";
+"反色"="ColorInvert";
+"褐色"="Sepia";
+"灰度"="Grayscale";
+
+//语言设置
+"PersonLanguageSetTitleKey"="Set language";
+"三维作品"="Data3d";
+"视频作品"="Video work";
+"视频采编"="Video";
+
+"本地展厅"="Local works";
+"私人展厅"="Private works";
+"公开展厅"="Public works";
+"收藏展厅"="Collect works";
+
+//版本
+"发现新版本，是否前往应用商店更新？"="Find a new version, go to the app store update?";
+"更新提示"="Update prompt";
+"更新"="Update";
+"取消"="Cancle";
+"版本提示"="Version Prompt";
+"确定"="Determine";
+"已是最新版本"="is the latest version";
+"正在检测更新"="Loading...";
+
+//引导页部分
+"GuidePageOneTitle"="One Key Shooting";
+"GuidePageOneSubTitle" = "Easily to take pictures, start shooting with one click";
+"GuidePageTwoTitle"="One Key Segment";
+"GuidePageTwoSubTitle"="Easily to cutout,Easily remove complex backgrounds";
+"GuidePageThreeKnowMoreText"="Click on the video for more detail";
+"GuidePageThreeLoginBtnTitle"="Log on immediately";
+"GuidePageThreeGotoHomePageBtnTitle"="Look freely";
+
+//主页面
+"AllWorkAllBtnTitle"="All";
+"AllWorkMineBtnTitle"="Mine";
+
+//个人中心
+"PersonUnloginText"="unlogin";
+"PersonMyWorkText"="My work";
+"PersonCourse"="Video course";
+"PersonDeviceConnect"="Device connection";
+"PersonHelp"="System help";
+"PersonClearCache"="Clear cache";
+"PersonVersionUpdate"="Version update";
+"PersonFeedback"="Suggestion";
+"PersonAboutUs"="About us";
+"PersonLogoutText"="Sign out";
+"PersonIsLatestVersion"="Latest version";
+"PersonFindNewVersion"="Found New Version";
+"PersonCleardCache"="Clear cache";
+"PersonSureQuitting"="Are you sure about quitting?";
+"PersonLogoutSuccess"="Exit the success";
+"PersonLoginSuccess"="Login successful";
+"PersonPrivacyPolicy"="Privacy Policy";
+"PersonAboutProduct"="About us";
+"PrivacyPolicy"="LaiDaShow Privacy Policy";
+"PrivacyPolicySummary"="LaiDaShow Privacy Policy Summary";
+"PrivacyPolicyAgree"=" I Agree";
+/**隐私政策提示*/
+"感谢您下载莱搭秀!当您开始使用本软件时，我们可能会对您的部分个人信息进行收集、使用和共享，请仔细阅读莱搭秀隐私政策，并确定了解我们对您个人信息的处理规则,包括：\n\n我们如何收集和使用您的个人信息\n我们如何保护和保留您的个人信息\n未成年人信息的保护\n如何联系我们\n\n如您同意《莱搭秀服务协议及隐私政策》，请点击“我同意”开始使用我们的产品和服务，我们尽全力保护您的个人信息安全。"="Thank you for downloading LaiDaShow! When you start using this software, we may collect, use, and share some of your personal information. Please read the LaiDaShow Privacy Policy carefully and make sure you understand our rules for handling your personal information, including: \n\n How we collect and use your personal information\n How we do To protect and preserve your personal information\n protection of minor information\n how to contact us \n\n If you agree to the LaiDaShow Service Agreement and Privacy Policy, please click I agree to start using our products and services, we do our utmost to protect your personal information security.";
+
+"PersonDeviceSelect"="Device select";
+
+//我的作品部分
+"MyworkPageTitle"="Visitor";
+"MyworkLocalWork"="Local works";
+"MyworkOnlineWork"="Online works";
+"MyworkFavirateWork"="Collect works";
+"LaiDaShow"="LaiDaShow";
+"Version"="Version";
+"BluetoothOFF"="Bluetooth has not been turned on. Please turn on Bluetooth";
+"BluetoothNoPremission"="No permission to use Bluetooth, please open the right";
+"BluetoothNotSuppered"="Bluetooth is not supported by device.";
+"Report"="Report";
+"GarbageMarketing" = "Garbage Marketing";
+"Sensitive information" = "Sensitive information";
+"Pornographic pornography"="Pornographic pornography";
+"CHEAT"="Cheat";
+"TORT"="Tort";
+"OTHERS"="Others";
+"CoifimReport"="Confim";
+
+//登录页面
+"LoginPhoneHolder"="Mobile phone number or email";
+"LoginPwdHolder"="Login password";
+"LoginForgetPwdTitle"="Forgot password？";
+"LoginBtnTitle"="Login";
+"LoginRegisterBtnTitle"="Registration";
+"LoginThirdLoginText"="Third-party login";
+"LoginWrongDes"="Wrong Phone Number Or password";
+"LogonValidity"="Login invalid, need to login again";
+"LoginOfflineFromOtherDevice"="The account has been logged in on another device and the device is offline";
+
+//注册页面
+"RegisterPhoneHolder"="Mobile phone number or email";
+"RegisterVerfiCodeHolder"="Verification code";
+"RegisterSendCodeTitle"="Send verification code";
+"RegisterSetPwdHolder"="Set Password";
+"RegisterBtnTitle"="Registration";
+"RegisterGotoLoginTextPrefix"="Existing account,";
+"RegisterGotoLoginTextTail"="Go to login";
+"RegisterUserProtocolTextPrefix"="Registered agree to";
+"RegisterUserProtocolTextTail"="User agreement and Disclaimer";
+"RegisterDisclaimer"="disclaimer";
+"RegisterSendCodeSuccess"="Verification code has been sent, Please Note that check";
+"RegisterPwdLenPrefixDes"="The password length is";
+"RegisterPwdLenTailDes"="bits";
+"UserRegistered"="Existing account, Go to login
+";
+"ReloadInfo"="Reload";
+"ValidateCode" = "Verification code invalid";
+
+
+//忘记密码
+"ForgetPwdPageTitle"="Forgot password";
+"ForgetPwdPhoneHolder"="Input phone number";
+"ForgetPwdNextText"="Next";
+"ForgetVerfiCodeHolder"="Verification code";
+"ForgetSetPwdHolder"="Set password";
+"ForgetConfirmPwdHolder"="Enter password again";
+"ForgetConfirmBtnTitle"="CONFIRM";
+"ForgetPwdUserIsExist"="User does not exist, please register";
+"ForgetValidateCode"="Code Validate";
+"ForgetPwdDifferent"="The two input password is inconsistent";
+
+//教程页面
+"CoursePageTitle"="Course";
+
+//设备连接页面
+"ConnectEquipment" = "Please connect the equipment";
+"DeviceConnectPageTitle"="Device connection";
+"DeviceConnectGotoTakePhotoText"="Photo";
+"DeviceConnectRefreshDeviceListTitle"="Refresh";
+"DeviceConnectStopRefreshDeviceListTitle"="Stop";
+"DeviceConnectDetectedDeviceText"="Detected device";
+"DeviceConnectDetectingDeviceText"="Detecting";
+"DeviceConnectNotFindDeviceText"="Not Found Device";
+"DeviceConnectedDeviceText"="Connected device";
+"DevicePleaseConnectedDeviceText"="Please connect San Wei Show camera device";
+"DeviceConnectFailPleaseFresh"="Device connection failed. Please refresh the device list";
+
+//系统帮助
+"HelpPageTitle"="System help";
+
+//意见反馈页面
+"FeedbackPageTitle"="Feedback";
+"FeedbackAdviseHolder"="Please enter your suggestions and comments";
+"FeedbackCommitText"="Submit";
+"FeedbackContactPhoneText"="Contact";
+"FeedbackContactPhoneHolder"="Input phone number or Email";//"In order for us to contact you";
+"FeedbackSuccess"="Feedback success";
+
+//"FeedbackPleaseInputContent"="Please input content";
+//"FeedbackPleaseContentLimitToMaxLen"="Content is too long";
+//"FeedbackPleaseInputPhone"="Please input contact";
+//"FeedbackPhoneInvalidate"="Invalid phone format";
+
+"FeedbackPleaseInputContent"="Enter at least 5 words";
+"FeedbackPleaseContentLimitToMaxLen"="Enter up to 140 words";  //"反馈内容过长";
+//"FeedbackPleaseInputPhone"= "Input phone number or Email";//"请输入联系方式";
+"FeedbackPhoneInvalidate"= "Enter the correct cell phone number or email";//"电话格式不正确";
+
+//关于页面
+"AboutUsPageTitle"="About us";
+
+//搜索页面
+"SearchTextHolder"="Search by user name or description";
+"SearchCancleText"="Cancle";
+"SearchHistoryText"="Search History";
+"SearchCleanHistory"="Scavenging search history";
+
+//作品详情
+"WorkDetailWorkName"="Name";
+"WorkDetailWorkDes"="Description";
+"WorkDetailPriceText"="Price";
+"WorkDetailPriceDanwei"="yuan";
+"WorkDetailMonthSaleCount"="Monthly sales";
+"WorkDetailMonthSaleCountUnit"="Pieces";
+"WorkDetailSheetReportText"="Report";
+"WorkDetailSheetCancle"="Cancle";
+"WorkDetailSheetSaveVideo"="Save Video";
+"WorkDetailSheetSaveGif"="Save Gif";
+"WorkDetailSheetSaveWholeImg"="Save All Images";
+"WorkDetailSheetSaveThisImg"="Save This Image";
+"WorkDetailSheetDeleteWork"="Delete work";
+"WorkDetailImageBtnTitle"="Photo";
+"WorkDetailVideoBtnTitle"="Video";
+"WorkDetailSiglePhotoSaveDes"="Confirm that the current picture is saved?";
+"WorkDetailCategory"="Category";
+"WorkDetailPraisedSuccess"="Liked";
+"WorkDetailCancleSuccess"="Cancel likes";
+"WorkDetailCollectedSuccess"="Collected";
+"WorkDetailCancleCollectedSuccess"="Cancel collection";
+"WorkDetailConfirmDeleteWorkTitle"="Do you confirm the deletion？";
+"WorkDetailConfirmDeleteWorkDes"="After the deletion, it cannot be retrieved";
+"WorkDetailDownloading"="In the download";
+"WorkDetailSavedToTheAblum"="Saved to album";
+"WorkDeleteSuccess"="Delete Success";
+"WorkMore"="You need to log in before you can see more works";
+"WorkNo"="No works yet";
+"WorkEdit"="Edit";
+"ReportInfoSuccess"="To report success";
+"WorkDetailInfoShow"="Show";
+"WorkDetailInfoHide"="Hide";
+"WorkDetailQRCodeImgShareFailed"="Share Failed";
+
+//在线服务
+"WorkOnlineSericeMsgTitle"="Message";
+"WorkOnlineServiceTitle"="Service Online";
+"WorkOnlineServiceApply"="Application service";
+"WorkOnlineServiceSuccess"="Application is successful, you will be notified when the processing is completed.";
+"WorkOnlineServiceComplete"="Your online service request has been completed. Come check it out!";
+"WorkOnlineServiceWorkMsgHolder"="Write down your needs, lets beautify your work~";
+//"WorkOnlineServiceHandling"="Application is successful, you will be notified when the processing is completed."; //在线服务处理中
+
+////作品详情举报类型
+//"WorkDetailSheetReportLJYX"="垃圾营销";
+//"WorkDetailSheetReportMGXX"="敏感信息";
+//"WorkDetailSheetReportYHSE"="淫秽色情";
+//"WorkDetailSheetReportQZ"="欺诈";
+//"WorkDetailSheetReportQQ"="侵权";
+//"WorkDetailSheetReportQT"="其他";
+
+//作品编辑页面
+"WorkEditBottomClipText"="Cut";
+"WorkEditBottomWaterMark"="WaterMark";
+"WorkEditBottomChangeBg"="ChangeBackground";
+"WorkEditBottomAddImg"="Poster";
+"WorkEditBottomModify"="Adjust";
+"WorkEditBottomMusic"="Music";
+"WorkEditBottomRecord"="Record";
+"WorkEditBottomClearBgText"="ClearBg"; //去底部
+"WorkEditCoifimClipTitle"="Confirm clip？";
+"WorkEditCoifimClipDes"="Cliped，can not clear backgroup";
+"WorkEditCoifimPosterTitle"="Confirm poster？";
+"WorkEditCoifimPosterDes"="Postered，can not clear backgroup";
+"WorkEditConfirmAddRecordTitle"="Are you sure to add the recording?";
+"WorkEditConfirmAddRecordDes"="When added, music will be replaced by the recording";
+"WorkEditConfirmAddMusicTitle"="Are you sure to add muisc?";
+"WorkEditConfirmAddMusicDes"="When added, the recording will be replaced by music";
+"WorkEditSaveingImgs"="Saving the picture";
+
+//作品编辑贴图页面
+"WorkEditAddImgAlphaText"="Transparency";
+"WorkEditAddImgChange"="Change the map";
+
+//作品编辑调整页面
+"WorkEditBottomModifyWhiteBalance"="White balance";
+"WorkEditBottomModifyLight"="Light and shade";
+"WorkEditBottomModifyDuibidu"="Contrast";
+"WorkEditBottomModifySaturation"="Saturation"; //饱和度
+"WorkEditBottomModifyResetTitle"="Reset";
+"WorkSave"="Save all works";
+"WorkDelete"="Delete the work";
+"BluetoothStateDisconnect"="Equipment disconnected";
+
+//作品编辑音乐页面
+"WorkEditBottomMusicPageTitle"="Music";
+"WorkEditBottomMusicConfirmText"="Confirm";
+
+//录音页面
+"WorkEditBottomRecordLongPressStartRecord"="Press and hold to record";
+"WorkEditBottomRecordRecording"="Recording...";
+"WorkEditBottomRecordRerecord"="Rerecord";
+"WorkEditBottomRecordSave"="Save";
+"WorkEditBottomRecordClickPlay"="Play";
+"WorkEditBottomRecordPlaying"="Playing...";
+"WorkEditBottomRecordTooShort"="The tape too short";
+"WorkEditBottomRecordFile"="The recording file";
+
+//换底页面
+"WorkChangeBgChanging"="Changing...";
+
+//发布页面
+"ReleasePageCategory"="*Category:";
+"ReleasePageVideoLen"="Video Length:";
+"ReleasePageTitle"="Publish Work";
+"ReleasePageSave"="Save";
+"ReleasePageNameText"="*Name:";
+"ReleasePagePrice"="Price(yuan):";
+"ReleasePageSaleCount"="Monthly sales(Pieces):";
+"ReleasePageBuyUrl"="Purchase link:";
+"ReleasePageDes"="Description:";
+"ReleasePageCategoryTextHolder"="Please Select Category";
+"ReleasePageNameTextHolder"="Add Work Name";
+"ReleasePagePriceHolder"="Add Price";
+"ReleasePageSaleCountHolder"="Add Monthly sales";
+"ReleasePageBuyUrlHolder"="Add useable purchase link";
+"ReleasePageDesHolder"="Add description";
+"ReleaseBtnTitle"="TO PUBLISH";
+"ReleaseSaveToLocal"="Save image";
+"ReleaseOnlyMeToSee"="Is visible";
+"ReleasePagePleaseInputWorkName"="Please input work name";
+"OK"="Confirm";
+"ReleaseSuccess"="Release Success";
+"ReleaseCancel"="Cancel";
+"ReleaseSaveSuccess"="Save Success";
+"ReleaseSave"="Saveing";
+"ReleaseSaveFaile"="Save Failed";
+"ReleaseGotoPublish"="Goto Publish";
+"NoRelevantContent"="No Relevant Content";
+"Releaseing"="Releasing";
+
+//个人信息
+"UserInfoModifyHeadImgText"="Modify avatar";
+"UserInfoUserName"="Username";
+"UserInfoUserAccount"="Account";
+"UserInfoUserPwd"="Safe";
+"UserInfoThirdLoginText"="Third Party Login";
+"UserInfoSignatureMark"="Introduction";
+"UserInfoSignatureDefault"="Come and write yourself a pen";
+
+//修改用户名
+"ModifyUserNamePageTitle"="Update Username";
+"ModifyUserNameHolder"="Input new name";
+"ModifyUserNameCompleteText"="Save";
+"ModifyUserHeadImgSuccess"="Modify HeadImg Success";
+"ModifySuccess"="Modify Success";
+
+//修改个性签名
+"ModifyUserSignPageTitle"="Usersign";
+"ModifyUserSignHolder"="Input new sign";
+"ModifyUserNosign"="No Usersign";
+
+//修改密码
+"ModifyPwdPageTitle"="Update Password";
+"ModifyPwdConfirmText"="Save";
+"ModifyPwdOldHolder"="Old Password";
+"ModifyNewPwdHolder"="Input new password";
+"ModifyAgainNewPwdHolder"="Enter new password again";
+"ModifyPwdSuccess"="Successful password modification";
+
+//去底页面。（拍照后进入）
+"ClearBgCancleWrokClearingTitle"="Cancle clearing";
+"ClearBgSwitchOriginImgTitle"="Switch origin img";
+"ClearBgSwitchCleardImgTitle"="Switch cleared img";
+"ClearBgClearingHudMsg"="Clearing";
+"ClearBgBackTitle"="Back";
+"ClearBgEditTitle"="Edit";
+"ClearBgStartClearTitle"="Clear";
+"ClearBgConfirmCancleClearTitle"="Confirm cancle?";
+"ClearBgSuccessInfo"="ClearBackground Success";
+"ClearBgGuideText"="Click the btn to remove the product bg\nLets try it";
+"ClearBgGuideOk"="OK";
+"ClearBgSelectDeviceTitle"="Please select a device";
+"ClearBgSelectDeviceDes"="In order to get more accurate, please select the corresponding shooting equipment";
+"ClearBgSelectDeviceBtnTitleSure"="OK";
+
+//首页列表
+"HomeProductionCtrlTitle"="Square";
+"HomeProductionCategoryRecommend"="Hot";
+"HomeProductionCategory3CNumberal"="3C Digital";
+"HomeProductionCategoryJewel"="Jewelry";
+"HomeProductionCategoryCurio"="Antique";
+"HomeProductionCategoryClothing"="Clothing";
+"HomeProductionCategoryOther"="Other";
+"WorkDetailPraisedSuccess"="Liked";
+
+//拍照页面
+"TakePhotoPleaseConnectDevice"="Please connect the equipment";
+"TaskPhotoShotNumber"="Shot number";
+
+"ProductInfoNO" = "No Product";
+"PhotoCompletion" = "Photo Completion";
+
+//发现部分
+"FindCtrlTitle"="Find";
+
+//底部tabbar
+"TabbarHomeTitle"="Home";
+"TabbarFinder"="Find";
+"TabbarWork"="Work";
+"TabbarMe"="Mine";
